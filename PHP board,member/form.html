@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <hr size='1' noshade>
+  등록화면
+  <hr size='1' noshade>
+  [<a href="list.php">돌아가기</a>]
+  <form class="form1" action="list.php" method="post">
+    성:
+    <input type="text" name="last_name" ><br>
+    이름:
+    <input type="text" name="first_name" ><br>
+    연령:
+    <input type="text" name="age" ><br>
+    <input type="submit" value="송신">
+    <input type="hidden" name="action" value="insert">
+  </form>
+</body>
+</html>
